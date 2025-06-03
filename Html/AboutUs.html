@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Homely Harvest</title>
+    <meta name="description" content="About us page for our website HomelyHarvest">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <meta name="author" content="Lila Raj Dura">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.png">
+    <link rel="stylesheet" href="../Css/footer.css">
+    <link rel="stylesheet" href="../Css/navbar.css">
+    <link rel="stylesheet" href="../Css/Aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        /* Internal css is used */
+        body {
+            margin: 0;
+            background-color: #fafffa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!--Navbar section-->
+        <div class="container">
+            <div class="containerdiv">
+                <div class="nlogo"><a href="../HomePage.html"><img src="../Images/Logo.png" alt="Photo of the Logo" width="150px"></a></div>
+                <div class="navcontents">
+                    <nav>
+                        <!--The links that can be seen in the navigation bar.-->
+                        <ul>
+                            <li><a href="../HomePage.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li id="currentpage"><a href="Aboutus.html">About Us</a></li>
+                            <li><a href="Research.html">Research</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Non functional searchbar for aesthetic look-->
+                <form class="searchbar">
+                    <span class="search-icon fa-solid fa-magnifying-glass"></span>
+                    <input class= "search-input" type="search" placeholder="Search">
+                </form>
+                <!--Non functional cart icon for aesthetic look-->
+                <div class="carticon">
+                    &nbsp;
+                    <a class="fa-solid fa-cart-shopping" style="font-size: 19px;"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="team spacing">
+        <h1>Our Team</h1>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <div class="leader-container">
+                        <div class="member">
+                            <a href="../Html/Portfolio/rohan.html"><img src="../Images/About us imgs/s1.jpg" alt="Leader"></a> <!--linking with cv page-->
+                            <div class="info">
+                                <h2>Rohan Shrestha</h2>
+                                <pre> <b>Networking</b>
+    Team leader
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="member">
+                        <a href="../Html/Portfolio/lila.html"><img src="../Images/About us imgs/lila.jpg" alt="Lila Raj Dura"></a> <!--linking with cv pages-->
+                        <div class="info">
+                            <h2>Lila Raj Dura</h2>
+                            <pre><b>Networking</b>
+    Team member
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="member">
+                        <a href="../Html/Portfolio/anubhav.html"><img src="../Images/About us imgs/anubhav.jpg" alt="Anubhav Pradhan"></a> <!--linking with cv pages-->
+                        <div class="info">
+                            <h2>Anubhav Pradhan</h2>
+                            <pre><b>Networking</b>
+    Team member
+                            </pre>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="spacer"></div>
+        <table>
+            <tr>
+                <td>
+                    <div class="member">
+                        <a href="../Html/Portfolio/barun.html"><img src="../Images/About us imgs/Barun.jpg" alt="Barun Adhikari"></a> <!--linking with cv pages-->
+                        <div class="info">
+                            <h2>Barun Adhikari</h2>
+                            <pre><b>Networking</b>
+    Team member
+                            </pre>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="member">
+                        <a href="../Html/Portfolio/rebika.html"><img src="../Images/About us imgs/rebika.jpg" alt="Rebika Shrestha"></a> <!--linking with cv pages-->
+                        <div class="info">
+                            <h2>Rebika Shrestha</h2>
+                            <pre><b>Networking</b>
+    Team member
+                            </pre>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="form_description_container">
+            <!--Creating form -->
+            <div class="form_container">
+                <form id="contactForm" onsubmit="return submitForm()">
+                    <h2>Contact Us</h2>
+                    <div class="input-box">             
+                        <input type="text" id="Firstname" name="Firstname" placeholder="Firstname" required><br>
+                        
+                    </div>
+                    <div class="input-box">  
+                                   
+                        <input type="text" id="Lastname" name="Lastname" placeholder="Lastname" required><br>
+                        
+                    </div>
+                    <div class="input-box">             
+                        <input type="text" id="Phone number" name="Number" placeholder="Contact Number" required><br>
+                        
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required><br>
+                    </div>
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">5 stars</option>
+                        <option value="4">4 stars</option>
+                        <option value="3">3 stars</option>
+                        <option value="2">2 stars</option>
+                        <option value="1">1 star</option>
+                    </select><br>
+                    
+                    <label for="review">Your Review:</label>
+                    <textarea id="review" name="review" rows="4" cols="50" placeholder="Your Review" required></textarea><br>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="description_container">
+                <h1>About our Grocery store</h1>
+                <h2>Our mission</h2>
+                <p>Our mission is to provide high quality, fresh groceries at affordable prices to our customers.</p>
+                <h2>Our History</h2>
+                <p>Harvest Homley Store was founded in 2024 by Rohan. Since then, we have been committed to serving our local community with the best selection of groceries.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-foot">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img class="flogo" src="../IMAGES/Logo.png" alt="Logo of website" width="250px">
+                    <p class="location" style="margin: 0; margin-left: 50px;">Kathmandu, Nepal</p>
+                </div>
+                <div class="footer-links">
+                    <div class="flinks">
+                        <h1 style="margin-bottom: 10px; font-size: 20px; font-weight: 600;">QUICK LINKS</h5>
+                        <ul style="margin: 0;padding: 0;font-family: Helvetica; font-size: 10px;">
+                            <li><a href="AboutUs.html">About Us</a></li>
+                            <li><a href="AboutUs.html">Feedback</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Research.html">Research</a></li>
+                        </ul>
+                    </div>
+                    <div class="fcontact-us">
+                        <h1 style="margin-bottom: 10px; font-size: 20px; font-weight: 600;">CONTACT US</h5>
+                        <div class="phonenumber">
+                            <p>9863875890, 9841764280</p>
+                        </div>
+                        <div class="phonenumber">
+                            <p>01-5434854</p>
+                        </div>
+                        <h1 style="margin-bottom: 15px; font-size: 18px; font-weight: 600; margin-top: 15px;">FOLLOW US</h5>
+                        <div class="ffollowus">
+                            <a class="fa-brands fa-instagram" href="https://www.instagram.com"></a>
+                            <a class="fa-brands fa-facebook" href="https://www.facebook.com"></a>
+                            <a class="fa-brands fa-linkedin" href="https://www.linkedin.com"></a>
+                            <a class="fa-brands fa-whatsapp" href="https://www.whatsapp.com"></a>
+                            <a class="fa-brands fa-youtube" href="https://www.youtube.com"></a>
+                            <a class="fa-brands fa-reddit" href="https://www.reddit.com"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-desc">
+            <p style="font-size: 15px;font-weight: 500;">©2024 HomelyHarvest. All Rights Reserved.</p>
+        </div>
+    </footer>   
+
+      <!--Using javascript for submit-->
+    <script>
+        function submitForm() {
+            alert("Form submitted successfully!");
+            document.getElementById("contactForm").reset(); // Reset the form
+           }
+    </script>
+
+</body>
+</html>

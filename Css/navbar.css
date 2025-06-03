@@ -1,0 +1,94 @@
+/*changing default padding and setting font*/
+ul {
+    padding-left: 15px;
+    font-family: Cascadia Mono;
+}
+
+/*displaying list in same line*/
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*changin color and removing text decoration*/
+a {
+    color: #000000; 
+    font-size: 15px; 
+    text-decoration: none;
+}
+
+/*making container to display content in the middle*/
+.container {
+    padding: 300px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 63%;
+    position: fixed;
+    background-color: #fafffa;
+    z-index: 1;
+}
+
+/*making another box inside container*/
+.containerdiv {
+    display: flex;
+    align-items: center;
+}
+
+/*adjusting logo*/
+.nlogo {
+    flex:15%;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+/*adjusting the placement of navcontent*/
+.navcontents {
+    flex:75%;
+}
+
+/*adjusting content inside searchbar*/
+.searchbar {
+    flex:5%;
+    display: flex;
+    width: 17%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+/*changing default properties of input*/
+.search-input {
+    font-size: 15px;
+    font-family: Cascadia Mono;
+    padding-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+/*changing font color*/
+.search-input::placeholder, /*using :: to edit pseudo element*/
+.search-icon {
+    color: #666c64;
+}
+
+/*adjusting the placement of navcontent*/
+.carticon {
+    flex:5%;
+}
+
+/*for outline to denote which website you are on*/
+#currentpage {
+    background-color: #eaffea;
+    border: 1px solid rgb(191, 253, 191);
+}
+
+/*changes color of anchor tag when you hover over it*/
+a:hover{
+    color:limegreen;
+    transition: 0.3s;
+}

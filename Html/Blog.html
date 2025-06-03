@@ -1,0 +1,262 @@
+<!DOCTYPE html>    
+<html>
+<head>
+    <title>HomelyHarvest</title>
+    <!--meta data about the web page-->
+    <meta name="description" content="Blog page for our website HomelyHarvest">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <meta name="author" content="Rebika">
+    <link rel="stylesheet" href="../Css/footer.css">
+    <link rel="stylesheet" href="../Css/navbar.css">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--internal css-->
+    <style> 
+        .main
+        {
+            border: 10px #9AA581;
+               padding: 20px;
+               margin:20px;
+               border-style:ridge;
+        }
+        body  { 
+            background-color: #fafffa; 
+                margin: 0px;
+                font-family: cascadia mono;
+        }
+        p{
+            font-family: cascadia monospace;
+        }
+        .spacing
+            {
+                padding-top: 160px;
+            }
+            .title{ 
+                text-align: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:#A3B18A;
+                font-size: 25px;
+            
+
+            }
+   
+           .right{
+            display: flex;
+            align-content: space-between;
+            padding: 3%;
+         
+           }
+           .heading{
+            text-align: center;
+            font-size: 40px;
+            color:  #92663c;
+           }
+       
+            
+    </style>
+</head>
+<!--main body content of about us page-->
+<body>
+    <header>
+        <!--Navbar section-->
+        <div class="container">
+            <div class="containerdiv">
+                <div class="nlogo"><a href="../HomePage.html"><img src="../Images/Logo.png" alt="Photo of the Logo" width="150px"></a></div>
+                <div class="navcontents">
+                    <nav>
+                        <!--The links that can be seen in the navigation bar.-->
+                        <ul>
+                            <li><a href="../HomePage.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li id="currentpage"><a href="Blog.html">Blog</a></li>
+                            <li><a href="AboutUs.html">About Us</a></li>
+                            <li><a href="Research.html">Research</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Non functional searchbar for aesthetic look-->
+                <form class="searchbar">
+                    <span class="search-icon fa-solid fa-magnifying-glass"></span>
+                    <input class= "search-input" type="search" placeholder="Search">
+                </form>
+                <!--Non functional cart icon for aesthetic look-->
+                <div class="carticon">
+                    &nbsp;
+                    <a class="fa-solid fa-cart-shopping" style="font-size: 19px;"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="blog spacing">
+        <div class="title" si><h1>Welcome To Our Blog</h1>
+        </div>
+        
+        <br>
+        <br>
+        <section class="main">
+           
+   
+   
+ <!--to display date using id-->
+            <p id="date"></p>
+      
+      
+        <script type="text/javascript">
+            //function to display date
+            function display_date() 
+                       {
+                        //gets the current date
+                           document.getElementById('date').innerHTML = Date();
+                           setTimeout(display_date,1000)
+                       }
+           
+                       display_date();
+                     </script>
+                   
+                     <section class="left">
+                       
+                     
+                        <!--section for What Is Technology-->
+                        <h1 class="heading"> What Is Technology?</h1>               
+                
+</section>
+<section class="right">
+  
+   
+    <p> 
+        
+         Technology is the foundation that upholds the whole computerized commercial center in the always impacting universe of online business. It incorporates a different scope of innovative progressions and arrangements that are carefully made to smooth out each step of internet buying and selling. These stages let retailers to introduce their merchandise, control stock, handle exchanges, and speak with clients in a simple to-utilize way. Modern installment passages like PayPal, Stripe, and Square, which ensure the protected and successful handling of installments across various channels and gadgets, supplement these stages 
+         Modern electronic commerce typically uses the World Wide Web at least at one point in the transaction's life-cycle, although it may encompass a wider range of technologies such as e-mail, mobile devices, social media, and telephones as well. 
+        </p>  
+        <p>
+            Behind the scenes, innovation arranges the complex dance of stock administration, inventory network coordinated factors, and request satisfaction, empowering organizations to advance activities and convey items quickly and dependably to clients' doorsteps. Besides, the appearance of cutting edge investigation apparatuses engages internet business ventures to gather significant bits of knowledge from huge stores of information, empowering them to settle on informed choices, refine their advertising systems, and improve the general client experience. As the computerized scene keeps on advancing, arising advancements like man-made consciousness and AI are progressively being bridled to drive development and productivity inside the internet business environment.
+        </p>
+    <p>
+        The checkout interaction has been made much more effective with the presentation of versatile installment frameworks like Apple Pay and Google Pay, empowering frictionless exchanges on cell phones.In the realm of online business, security is basic, and innovation is fundamental to getting delicate information and ruining cyberattacks. High level encryption and validation strategies are utilized by installment passages like PayPal and Stripe to get online exchanges, and SSL declarations ensure that information moved between web servers and programs is scrambled and protected from unapproved access by outsiders. Moreover, extra security layers are added by advancements like tokenization and biometric validation, which support client certainty and confidence in web-based buy.
+</p>
+
+</section>
+<br>
+<br>
+<!--section for Positive Impacts Of Technology-->
+                     <h1 class="heading">Positive Impacts Of Technology</h1>
+                     <section class="right">
+                     <br>
+                     <p>One can't underscore how much technology has changed web based business; it has totally changed how buyers and firms lead business. The improvement of cutting edge online business stages has given organizations the necessary resources to open web-based stores, which permits them to get to global business sectors and speak with clients anyplace on the planet effortlessly. Due of its openness, little and youngster organizations can now contend on an equivalent premise with notable brands. Technology offers the most comfort since it permits clients to shop, look at, and purchase things at whatever point they need, without being limited by geological limitations or conventional store hours. Moreover, information examination has permitted organizations to redo proposals and purchasing encounters, introducing a time of customized shopping encounters.advancements in light of individual preferences, making more grounded bonds with clients, and expanding brand unwaveringness.
+                    </p>
+                     <p>
+                         
+                        Technology has changed the functional productivity of internet business ventures, going past simple accommodation. Processes including request handling, client service, and stock administration have been streamlined via computerization and incorporation, which has diminished above and expanded net revenues. Since cloud-based arrangements are adaptable, associations might conform to changing interest without making huge forthright ventures, which advances strength and readiness notwithstanding moving economic situations. Moreover, front line examination advancements give associations basic experiences into rival techniques, industry patterns, and client conduct. These experiences assist them with pursuing information driven choices and remain in front of the opposition.
+
+
+                     
+                     </p>
+                     <p>
+                        In the realm of online business, security is basic, and innovation is fundamental to getting delicate information and frustrating cyberattacks. High level encryption and validation strategies are utilized by installment entryways like PayPal and Stripe to get online exchanges, and SSL testaments ensure that information moved between web servers and programs is encoded and protected from unapproved access by outsiders. Moreover, extra security layers are added by advancements like tokenization and biometric confirmation, which help client certainty and confidence in web-based buy.
+                        One more significant benefit of online business innovation is proficiency, since robotization and incorporation make many pieces of business activities more proficient. Stock administration frameworks limit manual blunders and augment stock turnover via mechanizing undertakings including request satisfaction, distribution center administration, and stock following. RFID is utilized in production network advancements.
+                     
+                     </p>
+                    
+                    </section>           
+
+<br>
+<br>
+<!--section for Negative Impacts Of Technology-->
+<h1 class="heading">Negative Impacts Of Technology</h1>
+<section class="right">
+<p>
+   
+    
+Technology has upset online business, however it likewise accompanies a large group of disadvantages and unfriendly impacts that the two buyers and organizations should know about. The greatest of these concerns is network protection risk in light of the fact that as exchanges become more computerized, there are more open doors for programmers to exploit shortcomings and compromise private data, which can bring about breaks, fraud, and money related misfortunes. Besides, the recurrence of unscrupulous practices, like purchasing counterfeit products and participating in fake exchanges, dissolves client certainty and deprecates online stages. Besides, the advanced gap actually exists, with contrasts in web availability and innovation access disturbing financial disparities and confining underestimated individuals' capacity to take part in the computerized economy.Likewise, web based business' low passage hindrance has filled market immersion and furious contest, making it provoking for more modest organizations to rise out of the shadows and effectively take on additional laid out, greater contenders.
+</p>
+<p>
+    Dependence on innovation involves gambles too. Organizations are helpless to interruptions like programming bugs, server blackouts, and cyberattacks, which can prompt lost income and reputational hurt. Besides, protection issues are a significant issue due to the inescapable social event and usage of client information for designated publicizing, which raises moral worries around information security and shopper security freedoms. Besides, the need for moral strategic policies and administrative control in the online business industry is featured by moral worries about work manhandles, natural impact, and fair rivalry.Finally, while however innovation has made it conceivable to robotize a few areas of client care, it likewise makes it hard to offer individualized and thoughtful help, which could irritate clients and make critical thinking more troublesome. To lay it out plainly, regardless of whether innovation has changed internet business, settling these adverse consequences is fundamental to ensuring a solid, just, and durable computerized commercial center for every interested individual.
+
+</p>
+<p>
+    Furthermore, the internet business industry's enlivening velocity of mechanical progression has immersed the market and expanded competition, particularly for new companies and little ventures. Because of the low hindrance to section in online business, various organizations rival each other for piece of the pie and client consideration, which stops up business sectors and makes items all the more similar. It very well may be challenging for independent companies to stand apart from the opposition and draw in new clients, which makes it hard to accomplish consistent development. Besides, significant organizations in the web based business space hold a lot of market power. They might control web indexes, dispersion strategies, and costs, which can restrict buyer decision, hinder rivalry, and make it more challenging for new organizations to enter the market.
+
+
+
+</p>
+</section>
+<br>
+<!--section of Effects Of Technology On Our Lives-->
+<h1 class="heading">Effects Of Technology On Our Lives</h1>
+<section class="right">
+
+<p>
+    Our lives have changed significantly because of innovation; online business is only one model. Its belongings are complex, starting effortlessly it gives. Internet business stages have changed the customary retail insight by empowering purchasers to shop whenever, anyplace. Moreover, mechanical headways have disposed of geological limitations, simplifying it for organizations to arrive at an overall customers. This development advances both financial development and culturally diverse exchange by opening up new business sectors and open doors. Innovation likewise makes it feasible for clients to have individualized shopping encounters by utilizing an abundance of information to modify proposals and raise shopper satisfaction.
+</p>
+<p>
+    One more distinctive element is productivity, since mechanized innovations improve on everything from installment handling to stock administration. Due to the time and cash reserve funds, web based business is presently a plausible decision for organizations, everything being equal. However, these benefits additionally accompany issues incorporate network safety dangers and stresses over the computerized partition. By the by, regardless of these hindrances, innovation continues prodding advancement, impacting how web based business creates proceeding and changing how we convey and buy in the computerized age.
+</p>
+<p>
+    Besides, innovation has totally impacted the way that web based business is cutthroat. Because of the significant decrease in section hindrances, little firms and business people can now effectively send off web-based stores. More modest organizations may now contend on an in any event, battleground with industry goliaths, because of the democratization of trade, which empowers advancement and variety on the lookout. Subsequently, clients get to additional choices and reasonable costs. However, this expanded competition likewise implies that organizations need to continually change and improve, which prompts nonstop development in products, administrations, and shopper encounters. Along these lines, the web based business environment continues to grow rapidly because of innovation's ceaseless progressions.
+</p>
+</section>
+<br>
+<!--section for Conclusion-->
+<h1 class="heading">Conclusion</h1>
+<section class="right">
+
+<p>
+    All in all, there is no rejecting that innovation significantly affects web based business, changing how we buy as well as how organizations capability in the contemporary world. Effortlessly of web shopping, a huge number of individuals currently integrate it into their regular schedules, exploiting the unrivaled openness to a broad choice of labor and products with a couple of snaps. This convenience, alongside the overall reach of internet business stages, has totally changed the retail scene by empowering organizations to get to new clients and cross geographic boundaries on a scale never before feasible. Besides, information driven calculations that tweak encounters and proposals to individual inclinations have made it workable for a degree of personalisation that was beforehand unimaginable, expanding buyer joy and unwaveringness.
+
+</p>
+<p>
+    Notwithstanding these benefits, innovation has fundamentally expanded internet business tasks' productivity by smoothing out systems and cutting costs for organizations while additionally giving clients quicker, more consistent shopping encounters. However, there are disadvantages to the development of web based business also, for example, stresses over information security, network protection chances, and the computerized partition. To defeat these hindrances, consistent meticulousness and monetary help serious areas of strength for conventions and comprehensive computerized foundation are required.
+
+
+</p>
+<p>
+    Notwithstanding, despite these hardships, innovation well affects online business. It has democratized trade by empowering entrepreneurs and business visionaries to take on industry titans and by advancing a creative and serious culture that benefits the two clients and organizations. The fate of online business is significantly better because of the fast headways in man-made consciousness, expanded reality, and other creating advancements that can possibly totally change how we connect and buy in the computerized age. Eventually, innovation has changed how we view business generally and has reformed internet business, opening the entryway for a more unique and incorporated worldwide economy.
+</p>
+<br>
+        </section>
+    </div>
+</body>
+<!--footer section-->
+<footer class="footer">
+    <div class="container-foot">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img class="flogo" src="../Images/Logo.png" alt="Logo of website" width="250px">
+                <p class="location" style="margin: 0; margin-left: 50px;">Kathmandu, Nepal</p>
+            </div>
+            <div class="footer-links">
+                <div class="flinks">
+                    <h1 style="margin-bottom: 10px; font-size: 20px; font-weight: 600;">QUICK LINKS</h5>
+                    <ul style="margin: 0;padding: 0;font-family: Helvetica; font-size: 10px;">
+                        <li><a href="../Html/AboutUs.html">About Us</a></li>
+                        <li><a href="../Html/AboutUs.html">Feedback</a></li>
+                        <li><a href="../Html/Blog.html">Blog</a></li>
+                        <li><a href="../Html/Research.html">Research</a></li>
+                    </ul>
+                </div>
+                <div class="fcontact-us">
+                    <h1 style="margin-bottom: 10px; font-size: 20px; font-weight: 600;">CONTACT US</h5>
+                    <div class="phonenumber">
+                        <p>9863875890, 9841764280</p>
+                    </div>
+                    <div class="phonenumber">
+                        <p>01-5434854</p>
+                    </div>
+                    <h1 style="margin-bottom: 15px; font-size: 18px; font-weight: 600; margin-top: 15px;">FOLLOW US</h5>
+                    <div class="ffollowus">
+                        <a class="fa-brands fa-instagram" href="https://www.instagram.com"></a>
+                        <a class="fa-brands fa-facebook" href="https://www.facebook.com"></a>
+                        <a class="fa-brands fa-linkedin" href="https://www.linkedin.com"></a>
+                        <a class="fa-brands fa-whatsapp" href="https://www.whatsapp.com"></a>
+                        <a class="fa-brands fa-youtube" href="https://www.youtube.com"></a>
+                        <a class="fa-brands fa-reddit" href="https://www.reddit.com"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-desc">
+        <p style="font-size: 15px;font-weight: 500;">©2024 HomelyHarvest. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>

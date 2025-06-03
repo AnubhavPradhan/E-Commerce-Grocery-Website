@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* alignment of items in container */
+    justify-content: center;
+    padding-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.member .info {
+    padding-left: 20px;
+    text-align: left;
+}
+h1, h2 {
+    text-align: center;
+}
+.leader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.spacer {
+    height: 20px;
+}
+.leader-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.form_description_container{
+    display: flex;
+}
+
+.form_container{
+    flex: 50%;
+    background-color: grey;  /* Set text color to grey */
+}
+
+.description_container {
+    flex: 50%;
+    background-color: #86e619;
+    
+}
+
+form {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label,
+form input,
+form select,
+form textarea,
+form input[type="submit"] {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.spacing{
+    padding-top: 160px;
+}

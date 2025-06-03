@@ -1,0 +1,96 @@
+/*Putting color in footer section*/
+.footer {
+    background-color: rgb(58, 88, 61);
+    font-family: cascadia mono;
+}
+
+/*Making container to display content in middle*/
+.container-foot {
+    padding-left: 300px ;
+    padding-right: 300px;
+}
+
+/*Making container to adjust content with even space*/
+.footer-top {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+}
+
+/*Making container to adjust content with even space*/
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+
+/*Making container to display content in column*/
+.flinks {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Overriding list's property from navbar*/
+.flinks li {
+    display: list-item; 
+    padding-left:0;
+    padding-top: 5px;
+}
+
+/*adjusting anchor to have following property*/
+.flinks a {
+    color: black;
+    font-size: 19px; 
+    text-decoration: none;
+    font-family: Cascadia Mono;
+}
+
+/*Container for contact info part*/
+.fcontact-us {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+/*Container for desc*/
+.footer-desc {
+    background-color: rgb(71, 114, 76);
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*Overiding default margin*/
+.footer-desc p {
+    margin: 0;
+}
+
+/*adjusting font, color and spacing*/
+.phonenumber p {
+    color: black;
+    font-size: 16px; 
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+/*container to put social medaia icon in evenn spacing*/
+.ffollowus {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+/*overiding properties*/
+.ffollowus a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*putting hover effect*/
+a:hover{
+    color:limegreen;
+    transition: 0.3s;
+}
