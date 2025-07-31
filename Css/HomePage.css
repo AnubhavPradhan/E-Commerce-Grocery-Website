@@ -1,0 +1,115 @@
+/*Css property of imageslider class */
+.imageslider {
+    display: flex;
+    padding-left: 21.5vh;
+    
+}
+
+/*Setting image resolution*/
+#slide {
+    width: 1200px;
+    height: 400px;
+}
+
+/*Putting padding so content doesnt get blocked by nav bar*/
+.spacing {
+    padding-top: 160px;
+}
+
+/*Setting font and aligning for header of sections*/
+.sectionheader {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+/*Making a container with white background color*/
+.sectionbox {
+    background-color: #fffffa;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 5px 5px 10px silver;
+}
+
+/*Making another box inside sectionbox*/
+.wbox {
+    margin-top: 10px; 
+    padding-right: 100px; 
+    padding-left: 100px;  
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Making another box inside wbox*/
+.wboxinside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 0.4vh solid black;
+}
+
+/*putting spaces between boxes*/
+.wbox p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*changing default margin*/
+.wboxinside p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/*changing font size and putting spacing between span*/
+.wboxinside span {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+/*container box inside wbox*/
+.blogbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Quicksand Semibold;
+}
+
+/*Setting image resolution*/
+.blogbox img {
+    width: 266px;
+    height: 400px;
+}
+
+/*fixing spacing between paragraph*/
+.blogbox p {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+/*changing font of h2*/
+.blogbox h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*putting space between content and button*/
+.blogbutton {
+    padding-top: 20px;
+}
+
+/*making flex to display content below*/
+.clmflex {
+    display: flex;
+    flex-direction: column;
+}
+
+/*putting spacing between*/
+.clmflex p {
+    padding-left: 50px;
+}
